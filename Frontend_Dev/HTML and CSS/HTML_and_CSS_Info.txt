@@ -1,0 +1,12 @@
+- HTML is a Hyper Text Markup Language and CSS (Cascading Stylesheet) is a styling language 
+- URL (Uniform Ressource (like web pages (HTML documents), Images, Video files and Fonts) Location) i.e. https://www.youtube.com
+- HTTP means HyperText Transfer Protocol and HTTPS means HyperText Transfer Protocol Secure
+- HTTP(S) are both protocols the browser uses to communicate with websites
+- HTTPS adds additional encryption to the response of the browser so no third-party might intercept
+- For example when isiting https://google.com the https:// part tells our browser to communicate with this website using an encrypted connection
+- DOM is a Document Object Model
+- Prettier code formatter extension allows equal formatting across team members (Shift + Alt + F)
+- Live Server extension allows launching a development local Server with live reload feature for dynamic pages (choose 'Open with Live Server')
+- Developer tools in browser to inspect HTML code of websites (Control + Shift + I)
+- validator.w3.org to validate HTML code/files
+- https://jigsaw.w3.org/css-validator/ to validate CSS code/files 
