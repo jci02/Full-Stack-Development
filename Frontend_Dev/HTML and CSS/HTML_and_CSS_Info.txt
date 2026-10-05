@@ -4,7 +4,7 @@
 - HTTP(S) are both protocols the browser uses to communicate with websites
 - HTTPS adds additional encryption to the response of the browser so no third-party might intercept
 - For example when isiting https://google.com the https:// part tells our browser to communicate with this website using an encrypted connection
-- DOM is a Document Object Model
+- DOM is a Document Object Model which represents the objects or elements of an HTML Document like Paragraphs, images and links
 - Prettier code formatter extension allows equal formatting across team members (Shift + Alt + F)
 - Live Server extension allows launching a development local Server with live reload feature for dynamic pages (choose 'Open with Live Server')
 - Developer tools in browser to inspect HTML code of websites (Control + Shift + I)
