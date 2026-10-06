@@ -10,4 +10,8 @@
 - Developer tools in browser to inspect HTML code of websites (Control + Shift + I)
 - validator.w3.org to validate HTML code/files
 - https://jigsaw.w3.org/css-validator/ to validate CSS code/files 
-- Press ! and hit Enter to get HTML Boilerplate
+- Press ! and hit Enter to get HTML Boilerplate/Template
+- Select content, (Press Control + Shift + P), enter wrap and type in the HTML element that the selected content should be wrapped in
+- Link: A general adress (URL)/reference to another resource
+- Hyperlink: A clickable link that takes you to another webpage, file, location, etc. (i.e. <a href="about.html">About Me</a>)
+- Go to https://unsplash.com/de for free pictures

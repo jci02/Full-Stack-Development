@@ -1,11 +1,193 @@
-<!DOCTYPE html>
+<!--DOCTYPE declaration: This tells the browser what type of document it is-->
+<!doctype html>
+<!--Root element of the entire HTML document with attribute lang (language) set to english-->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!--This tells the browser which character encoding the document uses (UTF-8 is the standard encoding)-->
+    <!--
+    meta is the metadata element and a void element with no closing tag, charset is the attribute 
+    and UTF-8 is the character encoding
+    -->
+    <meta charset="UTF-8" />
+    <!--
+    - <meta name='' content=''> this provides meta data of kind name='' with content='' 
+    - Viewport is essentially the visible area of the webpage
+    - device-width tells the browser to make the webpage's width equal to the device's screen width
+    - initial-scale=1.0 sets the initial zoom level to 100% when the page is first loaded by the browser
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--This says that the main topics/keywords of this page are HTML and CSS-->
+    <meta name="keywords" content="HTML, CSS" />
+    <!--Tells us this metadata is the page description with content='A simple HTML page with CSS styling'-->
+    <meta name="description" content="A simple HTML page with CSS styling" />
+    <!--Defines the title of the webpage which usually appears in the browser tab-->
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+    <!--CSS styling for the em element-->
+    <style>
+      em {
+        color: blue;
+        font-style: normal;
+      }
+      img.earth {
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        float: left;
+        margin-right: 10px;
+      }
+      /*CSS styling for the coffee image with object-fit property to cover the container*/
+      img.coffee{
+        width: 200px;
+        height: 200px;
+        object-fit:cover;    
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://google.com" target="_blank">Visit google in a new tab with target setting</a>
+    <br>
+    <!-- There are 6 levels of heading elements in HTML, from h1 to h6 -->
+    <!--Every webpage should only have one h1 element-->
+    <!--Use heading elements to create a hierarchy so serach engines can easier understand the structure of the page-->
+    <a href="mailto:j-c.iyke1@outlook.com">Email Me</a>
+    <h1>Heading 1</h1>
+    <h2>HTML</h2>
+    <p>HTML session</p>
+    <a href="#header4">Link to Heading 4</a>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ducimus
+      labore facilis temporibus magni ut recusandae sunt voluptas voluptate,
+      dolorem eius, delectus accusantium magnam vero libero laudantium fugiat
+      tempora ad, sit earum. Neque necessitatibus magnam ut perferendis
+      incidunt. Quos neque sunt deleniti asperiores repellat quibusdam dolor
+      suscipit voluptatem, voluptate, iste consequatur. Error quisquam repellat
+      incidunt blanditiis doloribus, sed, explicabo, consequuntur asperiores rem
+      tempora harum assumenda ipsum iusto ducimus. Placeat in, nulla minima cum
+      ab, consequatur voluptate, deleniti sit quam laboriosam quis? Expedita vel
+      consequuntur voluptatum molestiae facere iste sapiente recusandae nemo
+      debitis deleniti, quas repudiandae sed magni sint, aspernatur tempora unde
+      voluptate vitae? Eligendi repudiandae cum fugit aspernatur laborum
+      exercitationem quas in itaque consequatur dolorem nisi voluptatibus
+      dolores, voluptate inventore aut accusamus fuga quidem quae corporis quo
+      amet quisquam voluptatum. Animi sunt omnis necessitatibus fugit iure amet
+      quidem ipsam ratione distinctio vero! Nihil, accusantium ad maxime
+      laudantium, perspiciatis delectus corporis temporibus eaque earum at ea?
+      Amet officia facilis dolor adipisci. Officiis cum architecto accusantium
+      tempore distinctio. Illum repellat reiciendis voluptates nostrum fugiat
+      nemo corrupti, incidunt optio maxime magni, atque dignissimos, commodi
+      beatae dolores assumenda sed asperiores. Atque eius eaque delectus velit
+      voluptates tempore modi est, quam inventore magnam! Necessitatibus,
+      voluptate.
+    </p>
+    <img class="coffee" src="images/coffee cups.jpg" alt="Coffee cups on a table" />
+    <h2>CSS</h2>
+    <h3>Code</h3>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus,
+      deserunt ratione. Quod repudiandae accusamus architecto delectus dolores
+      at deleniti quo consequuntur autem beatae cupiditate accusantium eum
+      consectetur magni minima ullam enim, consequatur dolore? Qui est libero
+      nemo sit error, modi suscipit. Ad temporibus quia ipsam repellendus velit
+      perspiciatis, fugit at!
+    </p>
+    <h3>Exercise</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo provident
+      corporis inventore. Reprehenderit, quia eos laborum tempore, atque modi
+      dicta beatae delectus architecto et animi temporibus, eveniet perspiciatis
+      aspernatur fuga sequi! Expedita ut deserunt quas voluptatum fugiat dolores
+      eligendi consequuntur odit nisi. Optio facilis repellat ex, nisi odit
+      perferendis at molestias neque hic labore ipsum, praesentium minus et.
+      Aliquam incidunt voluptate architecto, praesentium a ipsum nesciunt
+      aliquid, nostrum quo dolore fugiat ea perferendis iure culpa rerum ratione
+      laudantium. Non mollitia nam distinctio voluptatibus a facere eius dolore
+      consectetur earum, nulla incidunt aliquam qui, dicta vitae similique
+      quibusdam aliquid accusamus soluta odio, suscipit ad est atque quia. Nemo
+      laborum magnam, laboriosam quasi similique perspiciatis dolorum nihil
+      quidem architecto dolore voluptates neque praesentium totam tenetur ad
+      explicabo iste mollitia qui itaque cum aperiam. Aliquam, possimus in
+      impedit tenetur rem quasi omnis? Veniam nostrum totam libero illum a modi
+      eos! Optio nisi dolores sed ipsum aliquam sit, nostrum veritatis
+      dignissimos, eos vero temporibus ullam beatae maiores cupiditate. Vero sit
+      labore doloribus repudiandae, ratione mollitia similique quos laborum
+      animi quod, atque hic laboriosam cupiditate saepe maiores minus voluptas
+      nostrum laudantium velit? Totam, rerum sapiente, nostrum aspernatur dolore
+      culpa, ratione libero dolorem incidunt laudantium hic excepturi eum
+      tempora ducimus earum natus voluptas doloribus cupiditate saepe odit error
+      nobis id alias illum. Iure expedita voluptatum magni odio reiciendis fuga?
+      Sit atque blanditiis, esse non illo, quaerat reprehenderit voluptatum
+      mollitia quo error itaque, dolorum odit asperiores qui aut. Dolor, ad
+      ipsum vitae cum earum necessitatibus iusto quasi itaque voluptatum
+      voluptates architecto deleniti delectus commodi qui amet perferendis, est
+      iste, eaque neque natus quo rerum repellendus tempore? Maiores at tempore
+      soluta nisi cumque est. Vel, quaerat ipsam! Odio illo molestias, ipsa
+      repellat tenetur magni iure fugiat, voluptatum ex doloremque debitis.
+      Itaque fugit illum, incidunt id omnis beatae aperiam culpa quibusdam dolor
+      tenetur natus aliquam impedit eum quae placeat commodi quam ab perferendis
+      alias vitae. Cupiditate explicabo quasi, harum repellat, doloribus
+      veritatis qui iure sequi, ratione dicta temporibus culpa. Ipsam aspernatur
+      blanditiis voluptas quae nihil odit unde minima maiores ipsa sequi,
+      corrupti dolores non mollitia eveniet beatae voluptatibus dolor ad enim
+      necessitatibus ab. Itaque natus neque odio ad dolore, quae magnam vero
+      animi in reprehenderit vitae maiores sapiente possimus at suscipit
+      reiciendis amet sed assumenda eligendi temporibus iusto porro cupiditate
+      numquam! Ullam quos ut, inventore fugiat et iste deleniti incidunt
+      praesentium, vero, doloremque ab eius facere quo veritatis repellendus.
+    </p>
+    <p>CSS session</p>
+    <h3>Heading 3</h3>
+    <h4 id="header4">Heading 4</h4> <!--use unique id to target the element-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+      voluptate odio praesentium eligendi labore laudantium suscipit tempore a
+      id iure eos. Quibusdam porro eum, explicabo exercitationem mollitia
+      doloremque repellat adipisci quod. Ab autem eveniet, tempora in
+      perferendis voluptate saepe minima ipsum minus. Facere culpa dolores id
+      exercitationem earum! Vel beatae laudantium nobis odio assumenda suscipit
+      impedit unde, saepe tempore neque, enim, eius obcaecati! Culpa officiis
+      soluta nihil dolorem! Molestiae praesentium rem quo ducimus inventore
+      corrupti autem, ullam nihil quasi nisi suscipit delectus, ut sequi fugit
+      consequuntur obcaecati rerum enim? Ad, dolore. Culpa eaque officia ratione
+      hic atque ad cumque? Laboriosam.
+    </p>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>I love <em>Australia</em>!</p>
+    <!--em elements are displayed as italic by default-->
+    <p>I love <strong>France</strong>!</p>
+    <!--strong elements are displayed as bold by default-->
+    <p>I love <em>Italy</em>!</p>
+    <p>I love &lt;Cheeseburgers&gt;</p>
+    <!--&lt; and &gt; are the HTML entities for < (less than) and > (greater than)-->
+    <p>Copy Right symbol &copy; an HTML entity</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, voluptatem
+      voluptatum. Nobis sequi aspernatur temporibus dolorem laudantium sunt
+      blanditiis molestias ab libero provident, incidunt necessitatibus fugiat,
+      dolores iusto&nbsp;aut officia? Necessitatibus aliquid eius autem quas ex.
+      In temporibus sed magni quas nisi illo delectus eaque molestiae, fugit
+      iusto eius omnis?
+    </p>
+    <!--Dummy text by entering lorem50 (50 words) and &nbsp; inserts a non-breaking space so both words are on the same line-->
+
+    <!--a is short for anker and we anker this webpage to another webpage specified in href (hyper text reference)-->
+    <!--
+    Relative URL:href="Company/about.html" (Describes where something is relative to the current HTML document) 
+    Absolute URL:href="https://www.example.com/about.html (Describes where something is in relation to the entire web)"
+     -->
+    <a href="Company/about.html">About me.</a>
+    <br />
+    <!-- Line break -->
+    <a href="images/earth.png">Link to my image.</a>
+    <br />
+    <a href="images/earth.png" download>Link to download my image.</a>
+    <br />
+    <a href="Company/about.html">
+      <img class="earth" src="images/earth.png" alt="The Earth" />
+      <!-- Link to the about page with an image -->
+    </a>
+    <a href="#">Jump to top</a>
+  </body>
 </html>
