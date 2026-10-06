@@ -1,5 +1,5 @@
 <!-- Specifies document type -->
-<!Doctype html>
+<!doctype html>
 <!-- 
   Also specifies the language of 
   the document as english
@@ -19,12 +19,21 @@
       .username {
         font-weight: bold;
       }
+      button.Subscribe{
+        background-color: red;
+        color:white;
+        cursor:pointer;
+
+      }
     </style>
   </head>
   <body>
-    <img src="images/earth.png" alt="An image of Earth">
+    <img src="images/earth.png" alt="An image of Earth" />
     <!-- Write paragraphs -->
     <p class="username">@iykejerry</p>
-    <p>I am learning HTML.</p>
+    <p>I am &nbsp;&nbsp;&nbsp; learning HTML.</p>
+    <button onclick="alert('Button clicked!')">Click here with an alert</button>
+    <br>
+    <button class="Subscribe" type="button">Add to favorites</button>
   </body>
 </html>
