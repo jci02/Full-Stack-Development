@@ -9,23 +9,7 @@
     <!--Title seen in the browser tab -->
     <title>My first website</title>
     <!-- Use CSS to apply styles to specified HTML elements (of a certain class) -->
-    <style>
-      img {
-        width: 100px;
-        border-radius: 50px;
-        float: left;
-        margin-right: 10px;
-      }
-      .username {
-        font-weight: bold;
-      }
-      button.Subscribe{
-        background-color: red;
-        color:white;
-        cursor:pointer;
-
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <img src="images/earth.png" alt="An image of Earth" />
@@ -34,6 +18,8 @@
     <p>I am &nbsp;&nbsp;&nbsp; learning HTML.</p>
     <button onclick="alert('Button clicked!')">Click here with an alert</button>
     <br>
-    <button class="Subscribe" type="button">Add to favorites</button>
+    <button class="Subscribe" type="button">Subscribe</button>
+    <button class="Join">Join</button>
+    <button class="Tweet">Tweet</button>
   </body>
 </html>
