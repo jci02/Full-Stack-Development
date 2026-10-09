@@ -16,3 +16,4 @@
 - Hyperlink: A clickable link that takes you to another webpage, file, location, etc. (i.e. <a href="about.html">About Me</a>)
 - Go to https://unsplash.com/de for free pictures
 - Hover over an HTML element and click MDN Reference to get Documentation
+- <div></div> is an HTML container element that stands for division and is used to group related HTML elements together i.e. for styling with CSS
